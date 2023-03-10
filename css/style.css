@@ -1,0 +1,234 @@
+form{
+
+    background-color:#004B8E ;
+    border-radius: 20px;
+    padding: 32px;
+
+   align-items: center;
+
+}
+
+button{
+    border-radius: 6px;
+    width: 30%;
+    height: 50px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+#loginletras{
+    margin-bottom: 30px;
+}
+
+#enviardatos{
+    border-radius: 6px;
+    width: 30%;
+    height: 50px;
+    margin-left: 36%;
+    margin-bottom: 30px;
+}
+
+#usuario,#password{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+input{
+    border-radius: 6px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+ 
+}
+select{
+    border-radius: 6px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row{
+    padding-top: 30px;
+   display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+   align-items: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+#bodyadmin{
+ 
+    font-family: 'Impact',Charcoal, sans-serif ;
+
+}
+#bodyuser{
+ 
+    font-family: 'Impact',Charcoal, sans-serif ;
+
+}
+
+#mostrarINCID{
+    font-family: 'Tahoma',bold, sans-serif;
+}
+
+ 
+#formulario{
+    margin-bottom: 15px;
+    font-family: 'Tahoma',bold, sans-serif;
+}
+
+
+
+#logo{
+    height: 70px;
+}
+
+#contexto{
+    width: 100%;
+    padding-left: 0px; 
+    padding-right: 0px;
+    height: 380px;
+}
+
+
+#crearIn{
+    margin-top: 300px;
+    background-color: #FFDAE1;
+    
+}
+
+#verIn{
+    margin-top: 300px;
+     background-color: #FFDAE1;
+     
+}
+#logoutUs{
+    margin-top: 300px;
+     background-color:#FFDAE1 ;
+}
+
+#smdevices{
+    margin-left: 80px;
+}
+
+#opciones{
+    padding-top: 0px;
+    font-family: 'Tahoma',bold, sans-serif;
+}
+
+#enviarincid{
+    margin-right:20% ;
+
+}
+
+th{
+    background-color: #8DC9FF;
+    
+}
+
+
+table,th,td{
+text-align: center;
+border: 2px solid whitesmoke;
+border-collapse: collapse;
+
+}
+
+td{
+    background-color: #FFDAE1;
+}
+
+#tablaIncid{
+    display: flex;
+    justify-content: center;
+}
+
+td:hover {background-color: #dae7ff;}
+
+#bg-success{
+    background-color: rgb(38, 255, 92);
+}
+
+#bg-warning{
+    background-color: #ffd344;
+}
+
+#bg-danger{
+    background-color: #ff3434;
+}
+
+
+#registro{
+    margin-left: 35%;
+}
+
+#verificarRegistro{
+    margin-left: 35%;
+}
+
+#pieregistro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 25%;
+}
+
+
+#pielogin{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15%;
+}
+
+/* RESPONSIVE PARA LAS IMAGENES DE LA CABECERA*/
+@media(min-width: 1024px) {
+#smdevices{
+    display: none;
+}
+
+#midsize{
+    display: none;
+}
+
+}
+
+ @media (min-width: 481px) and (max-width:1024px) {
+
+    #smdevices{
+    display: none;
+}
+
+#contexto{
+    display: none;
+}
+ }
+
+  @media (max-width: 481px){
+
+    #midsize{
+    display: none;
+}
+
+#contexto{
+    display: none;
+}
+    
+  }
+
+  #nombresess{
+    text-align: center;
+  }
+  #tablaIncidINFO{
+    display: flex;
+    justify-content: center;
+  }
+
+  #enviarincid{
+ margin-left: 20%;
+  }
